@@ -10,7 +10,7 @@ let c=prompt("Enter the 3rd coefficient:");
 let D=(b*b)- (4*a*c);
 if (D>0) {
 root1 = (-b+ Math.sqrt(D)) / (2*a);
-root2 = (-b- Math.sqrt(D)) / (2*a);
+root2 = (-b- Math.sqrt(D)) / (02*a);
 document.write('The roots of the quadratic equation are :'+root1+' and '+root2+'.');
 }
 else if (D==0) {
